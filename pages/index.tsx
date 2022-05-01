@@ -104,7 +104,7 @@ const Home: NextPage = () => {
             </div>
             <p id="condition-of-weight-value" className="mx-4">
               {isValidWeightValue(weight) ? (
-                <span className="font-semibold text-emerald-700">ok</span>
+                <span className="font-bold text-emerald-700">ok</span>
               ) : (
                 <>Weight must be greater than or equal to 1 and less than or equal to 2000 (1 &le; w &le; 2000).</>
               )}
@@ -132,7 +132,7 @@ const Home: NextPage = () => {
             </div>
             <p id="condition-of-reps-value" className="mx-4">
               {isValidRepsValue(reps) ? (
-                <span className="font-semibold text-emerald-700">ok</span>
+                <span className="font-bold text-emerald-700">ok</span>
               ) : (
                 <>Reps must be greater than or equal to 1 and less than or equal to 12 (1 &le; r &le; 12).</>
               )}
