@@ -1,34 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+# One-repetition maximum Calculation Website
 
-First, run the development server:
+**A simple website to calculate 1RM.**
+
+**https://one-rep-max-calc-web.vercel.app**
+
+</div>
+
+<br />
+
+**1RM** is the maximum weight that can be lifted at one time.
+
+> **One-repetition maximum** (**one rep maximum** or **1RM**) in weight training is the maximum amount of weight that a person can possibly lift for one repetition.
+> It may also be considered as the maximum amount of force that can be generated in one maximal contraction.[1]
+> One repetition maximum can be used for determining an individuals maximum strength and is the method for determining the winner in events such as powerlifting and weightlifting competitions.
+> One repetition maximum can also be used as an upper limit, in order to determine the desired "load" for an exercise (as a percentage of the 1RM).
+> https://en.wikipedia.org/wiki/One-repetition_maximum
+
+<br />
+<br />
+
+## Features
+
+- [x] Get the value of **1RM** by entering values in the form and calling the [API](https://github.com/HirokiTakeshita/1RMCalcAPI).
+- [x] Also, you can get the weight at each percentage of 1RM.
+
+<br />
+
+## Demo
+
+- **You can try it out on the [website](https://one-rep-max-calc-web.vercel.app).**
+
+<img src="public/images/demo-web.gif" alt="A demo video trying out the website." />
+
+<br />
+
+or
+
+<br />
+
+- **You can try it locally.**
+
+<img src="public/images/demo-local.gif" alt="A demo video of running a command and trying it locally." />
 
 ```bash
-npm run dev
-# or
+git clone https://github.com/HirokiTakeshita/1RMCalcWeb.git
+cd 1RMCalcWeb
+yarn
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<br />
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Tech Stack
+- **Framework: [Next.js](https://nextjs.org)**
+- **Deployment: [Vercel](https://vercel.com)**
+- **Styling: [Tailwind CSS](https://tailwindcss.com)**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<br />
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+MIT
